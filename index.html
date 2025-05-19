@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tienda gamer</title>
+    <title>Tienda Gamer</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -17,34 +17,30 @@
 </head>
 
 <body>
-    <!--  =========== HEADER ==========  ---->
+    <!--  =========== HEADER ==========  -->
     <header class="menu-gamer">
         <div class="logo">Tienda Gamer</div>
-        <!--  =========== NAVIGATION ==========  ---->
+        <!--  =========== NAVIGATION ==========  -->
         <nav class="nav-links">
             <a href="#">Inicio</a>
             <a href="#">Productos</a>
             <a href="#">Ofertas</a>
             <a href="contacto.html">Contacto</a>
-            <!--  =========== NAVIGATION ==========  ---->
         </nav>
         <div class="acciones">
-            <!--  =========== BUSCADOR ==========  ---->
+            <!--  =========== BUSCADOR ==========  -->
             <div class="buscador">
                 <input type="text" placeholder="Buscar productos..." />
                 <button><i class="fas fa-search"></i></button>
             </div>
-            <!--  =========== BUSCADOR ==========  ---->
-            <!--  =========== INICIO DE SECCION ==========  ---->
+            <!--  =========== INICIO DE SESIÓN ==========  -->
             <a href="paginalogin.html" class="icon-btn" title="Iniciar Sesión">
                 <i class="fas fa-user"></i>
             </a>
-            <!--  =========== INICIO DE SECCION ==========  ---->
-            <!--  =========== CARRITO DE COMPRAS ==========  ---->
+            <!--  =========== CARRITO DE COMPRAS ==========  -->
             <a href="#" class="icon-btn" title="Carrito de Compras">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <!--  =========== CARRITO DE COMPRAS ==========  ---->
         </div>
     </header>
     <!--  ===========  END HEADER ==========  -->
@@ -57,7 +53,7 @@
             <a href="/">Regístrate ahora</a>
         </div>
         <div class="banner-img">
-            <img src="../images/products/shirt-2.jpg" alt="">
+            <img src="../images/products/shirt-2.jpg" alt="Banner producto">
         </div>
     </section>
     <!--  ===========  END  BANNER ==========  -->
@@ -65,7 +61,7 @@
     <!--  ===========  MAIN CONTENT  ========== -->
     <main class="container main-content">
         <section class="container container-features">
-            <!--TARJETA DE FEACTURE  -->
+            <!--TARJETA DE FEATURE-->
             <article class="card-feature">
                 <i class="fa-solid fa-plane-up"></i>
                 <div class="feature-content">
@@ -94,89 +90,77 @@
                     <p>Asistencia en cualquier momento</p>
                 </div>
             </article>
-            <!--END TARJETA DE FEACTURE  -->
+            <!--END TARJETA DE FEATURE-->
         </section>
 
-        <!-- ========= TARJETA DE CATEGORIAS ========= -->
-    <section class="container top-categories">
-        <h1 class="heading-1">Categorías que manejamos</h1>
-        <div class="container-categories">
-            <article class="card-category category-portatil-oficina">
-                <p>Portátiles - Oficina</p>
-                <span>Ver más</span>
-            </article>
-    
-            <article class="card-category category-escritorio-gamer">
-                <p>Escritorio - Gamer</p>
-                <span>Ver más</span>
-            </article>
-    
-            <article class="card-category category-partes-accesosrios">
-                <p>Partes & Accesorios</p>
-                <span>Ver más</span>
-            </article>
-    
-            <article class="card-category category-diseño-web">
-                <p>Diseño - Web</p>
-                <span>Ver más</span>
-            </article>
-        </div>
-    </section>
+        <!-- ========= TARJETA DE CATEGORÍAS ========= -->
+        <section class="container top-categories">
+            <h1 class="heading-1">Categorías que manejamos</h1>
+            <div class="container-categories">
+                <article class="card-category category-portatil-oficina">
+                    <p>Portátiles - Oficina</p>
+                    <span>Ver más</span>
+                </article>
 
-        <!-- ========= TARJETA DE CATEGORIAS ========= -->
+                <article class="card-category category-escritorio-gamer">
+                    <p>Escritorio - Gamer</p>
+                    <span>Ver más</span>
+                </article>
+
+                <article class="card-category category-partes-accesorios">
+                    <p>Partes & Accesorios</p>
+                    <span>Ver más</span>
+                </article>
+
+                <article class="card-category category-diseño-web">
+                    <p>Diseño - Web</p>
+                    <span>Ver más</span>
+                </article>
+            </div>
+        </section>
+        <!-- ========= END TARJETA DE CATEGORÍAS ========= -->
 
         <!-- ========= TARJETA DE TOP PRODUCTOS ========= -->
         <section class="container top-products" id="product-container">
             <h2 class="heading-2">Nuevos productos</h2>
             <div class="container-options">
                 <ul class="menu-options">
-                    <li data-category="destacados" class="active"><a href="">Destacados</a></li>
+                    <li data-category="destacados" class="active"><a href="#">Destacados</a></li>
                     <li data-category="gamer"><a href="#">Mundo Gamer</a></li>
                     <li data-category="vendidos"><a href="#">Mejores Vendidos</a></li>
                     <li data-category="usados"><a href="#">Usados</a></li>
                 </ul>
             </div>
             <!-- ========== PRODUCTOS ========== -->
-            <div class="container-products">
-
-                <div class="container-products" id="products-list">
-                    <!-- Los productos se cargarán dinámicamente aquí -->
-                </div>
+            <div class="container-products" id="products-list">
+                <!-- Los productos se cargarán dinámicamente aquí -->
             </div>
         </section>
-
-        <!-- ========= TARJETA DE TOP PRODUCTOS ========= -->
+        <!-- ========= END TARJETA DE TOP PRODUCTOS ========= -->
     </main>
 
     <!--  ===========  GALLERY ==========  -->
-<section class="gallery-gamer">
-  <h2 class="gallery-title-neon heading-1">Galería Gamer</h2>
-  <div class="gallery-grid">
-    <img src="../images/gallery/1.jpg" alt="Producto 1" class="gallery-img delay-1">
-    <img src="../images/gallery/2.jpg" alt="Producto 2" class="gallery-img delay-2">
-    <img src="../images/gallery/3.jpg" alt="Producto 3" class="gallery-img delay-3">
-    <img src="../images/gallery/4.jpg" alt="Producto 4" class="gallery-img delay-4">
-    <img src="../images/gallery/5.jpg" alt="Producto 5" class="gallery-img delay-5">
-    <img src="../images/gallery/6.jpg" alt="Producto 5" class="gallery-img delay-6">
-    <img src="../images/gallery/7.jpg" alt="Producto 5" class="gallery-img delay-7">
-    <img src="../images/gallery/8.jpg" alt="Producto 5" class="gallery-img delay-8">
-
-  </div>
-</section>
-
+    <section class="gallery-gamer">
+        <h2 class="gallery-title-neon heading-1">Galería Gamer</h2>
+        <div class="gallery-grid">
+            <img src="../images/gallery/1.jpg" alt="Producto 1" class="gallery-img delay-1">
+            <img src="../images/gallery/2.jpg" alt="Producto 2" class="gallery-img delay-2">
+            <img src="../images/gallery/3.jpg" alt="Producto 3" class="gallery-img delay-3">
+            <img src="../images/gallery/4.jpg" alt="Producto 4" class="gallery-img delay-4">
+            <img src="../images/gallery/5.jpg" alt="Producto 5" class="gallery-img delay-5">
+            <img src="../images/gallery/6.jpg" alt="Producto 6" class="gallery-img delay-6">
+            <img src="../images/gallery/7.jpg" alt="Producto 7" class="gallery-img delay-7">
+            <img src="../images/gallery/8.jpg" alt="Producto 8" class="gallery-img delay-8">
+        </div>
+    </section>
     <!--  =========== END  GALLERY ==========  -->
-
-    <!--  ===========  OFERTAS  ==========  -->
-
-    <!--  ===========  OFERTAS  ==========  -->
 
     <!--  ===========  BLOG ==========  -->
     <section class="container">
-
         <div class="container-blogs">
             <div class="card-blog">
                 <div class="container-img">
-                    <img src="../images/blog/blog-1.jpg" alt="">
+                    <img src="../images/blog/blog-1.jpg" alt="Blog 1">
                     <div class="button-group-blog">
                         <span>
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -187,20 +171,20 @@
                     </div>
                 </div>
                 <div class="content-blog">
-                    <h3>Noticias de interes tecnologico</h3>
+                    <h3>Noticias de interés tecnológico</h3>
                     <span>29 Noviembre 2022</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor accusantium
                         voluptates,
                         possimus commodi architecto necessitatibus,
                         numquam ab tempore expedita ratione quia ipsa quos culpa minus repellat nemo nulla unde.
                     </p>
-                    <div class="btn-read-more">leer más</div>
+                    <div class="btn-read-more">Leer más</div>
                 </div>
             </div>
 
             <div class="card-blog">
                 <div class="container-img">
-                    <img src="../images/blog/blog-2.jpg" alt="">
+                    <img src="../images/blog/blog-2.jpg" alt="Blog 2">
                     <div class="button-group-blog">
                         <span>
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -211,20 +195,20 @@
                     </div>
                 </div>
                 <div class="content-blog">
-                    <h3>Noticias de interes tecnologico</h3>
+                    <h3>Noticias de interés tecnológico</h3>
                     <span>29 Noviembre 2022</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor accusantium
                         voluptates,
                         possimus commodi architecto necessitatibus,
                         numquam ab tempore expedita ratione quia ipsa quos culpa minus repellat nemo nulla unde.
                     </p>
-                    <div class="btn-read-more">leer más</div>
+                    <div class="btn-read-more">Leer más</div>
                 </div>
             </div>
 
             <div class="card-blog">
                 <div class="container-img">
-                    <img src="../images/blog/blog-3.jpg" alt="">
+                    <img src="../images/blog/blog-3.jpg" alt="Blog 3">
                     <div class="button-group-blog">
                         <span>
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -235,35 +219,31 @@
                     </div>
                 </div>
                 <div class="content-blog">
-                    <h3>Noticias de interes tecnologico</h3>
+                    <h3>Noticias de interés tecnológico</h3>
                     <span>29 Noviembre 2022</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor accusantium
                         voluptates,
                         possimus commodi architecto necessitatibus,
                         numquam ab tempore expedita ratione quia ipsa quos culpa minus repellat nemo nulla unde.
                     </p>
-                    <div class="btn-read-more">leer más</div>
+                    <div class="btn-read-more">Leer más</div>
                 </div>
             </div>
         </div>
     </section>
     <!--  ===========END  BLOG ==========  -->
-    </main>
-    <!--  =========== END  MAIN ==========  -->
 
     <!--  ===========  FOOTER ==========  -->
     <footer class="footer">
-
         <div class="container container-footer">
             <div class="menu-footer">
                 <div class="contact-info">
                     <p class="title-footer">Información de contacto </p>
                     <ul>
-                        <li>Direccion: 71 Peenintong Lane Vernon Rockville, CT 06066</li>
-                        <li>Contacto:3166217684</li>
-                        <li>Email:contacto@usados.com</li>
+                        <li>Dirección: 71 Peenintong Lane Vernon Rockville, CT 06066</li>
+                        <li>Contacto: 3166217684</li>
+                        <li>Email: contacto@usados.com</li>
                     </ul>
-
                     <div class="social-icons">
                         <span class="facebook">
                             <i class="fa-brands fa-facebook"></i>
@@ -284,10 +264,10 @@
                     <p class="title-footer">Información</p>
                     <ul>
                         <li><a href="#">Acerca de Nosotros</a></li>
-                        <li><a href="#">Información Delyvery </a></li>
-                        <li><a href="#">Politicas de Privacidad</a></li>
-                        <li><a href="#">Terminos y condiciones</a></li>
-                        <li><a href="#">Contactenos</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Contáctenos</a></li>
                     </ul>
                 </div>
 
@@ -295,32 +275,29 @@
                     <p class="title-footer">Mi cuenta</p>
                     <nav class="nav-footer">
                         <li><a href="#">Mi cuenta</a></li>
-                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Historial de órdenes</a></li>
                         <li><a href="#">Lista de deseos</a></li>
-                        <li><a href="#">Boletin</a></li>
+                        <li><a href="#">Boletín</a></li>
                         <li><a href="#">Reembolsos</a></li>
                     </nav>
-
                 </div>
                 <div class="newsletter">
                     <p class="title-footer">Boletín informativo</p>
-
                     <div class="content">
                         <p>
-                            Suscribete a nuestros boletines ahora y mantente al
-                            día con nuevos productos y ofertas exclusivas
+                            Suscríbete a nuestros boletines ahora y mantente al
+                            día con nuevos productos y ofertas exclusivas.
                         </p>
                         <form action="">
-                            <input type="email" name="" id="" placeholder="Ingresa el correo aqui...">
-                            <button>Suscribete</button>
+                            <input type="email" name="" id="" placeholder="Ingresa el correo aquí...">
+                            <button>Suscríbete</button>
                         </form>
                     </div>
                 </div>
             </div>
-
-            <div class="copyrigth">
+            <div class="copyright">
                 <p>
-                    Desarrollado por ALPHATECNO &COPY;2023
+                    Desarrollado por ALPHATECNO &copy;2023
                 </p>
                 <img src="../images/footer/payment.png" alt="Pagos">
             </div>
@@ -328,16 +305,10 @@
     </footer>
     <!--  =========== END  FOOTER ==========  -->
 
-    <!--  =========== JAVASCRIPT PRODUCTOS ==========  -->
+    <!--  =========== JAVASCRIPT ==========  -->
     <script src="/js/productosapp.js"></script>
-    <!--  =========== END JAVASCRIPT PRODUCTOS ==========  -->
-
-    <!--  =========== JAVASCRIPT PRODUCTOS ==========  -->
     <script src="/js/banner.js"></script>
-    <!--  =========== END JAVASCRIPT PRODUCTOS ==========  -->
-
-
->>>>>>> 277a908 (Se  organizan las estructuras del protecto y sus carpetas)
+    <!--  =========== END JAVASCRIPT ==========  -->
 </body>
 
 </html>
